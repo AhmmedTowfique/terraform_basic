@@ -1,0 +1,8 @@
+# Terraform files to ignore
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials (if any)
+.aws/credentials
